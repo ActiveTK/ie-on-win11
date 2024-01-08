@@ -8,6 +8,14 @@ Internet Explorer 11は、2023年2月14日のアップデートによりアプ�
 
 `/bin/ie-on-windows11.exe` を実行すると、Internet Explorer 11が立ち上がります。
 
+また、以下のコマンドライン操作でも実行できます。
+
+```
+git clone https://github.com/ActiveTK/ie-on-win11
+cd ie-on-win11/bin/
+./ie-on-windows11.exe
+```
+
 # License
 
 The MIT License
