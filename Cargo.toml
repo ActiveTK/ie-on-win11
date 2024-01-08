@@ -1,0 +1,16 @@
+[package]
+name = "ie-on-windows11"
+version = "0.1.0"
+edition = "2021"
+authors = ["ActiveTK. <webmaster@activetk.jp>"]
+
+[dependencies]
+winapi = { version = "0.3", features = ["winuser", "shellapi", "objbase"] }
+
+[build-dependencies]
+static_vcruntime = "2.0"
+winresource = "0.1.14"
+
+[package.metadata.winresource]
+ProductName = "Internet Explorer on Windows 11"
+LegalCopyright = "(c) 2024 ActiveTK."
