@@ -12,8 +12,8 @@ Internet Explorer 11は、2023年2月14日のアップデートによりアプ�
 
 ```
 git clone https://github.com/ActiveTK/ie-on-win11
-cd ie-on-win11/bin/
-./ie-on-windows11.exe
+cd ie-on-win11\bin
+.\ie-on-windows11.exe
 ```
 
 # License
